@@ -45,13 +45,13 @@ cd salary-prediction
 ### 4. Обучение ансамблевых моделей с подбором параметров в Optuna
 | Модель        | MAPE     | Гиперпараметры                       |
 |---------------|----------|--------------------------------------|
-| CatBoost      | 0.0293  | 'learning_rate': 0.0834
-                             'depth': 10|
-| LightGBM      | 0.0472      | 'num_leaves': 65
-                             'learning_rate': 0.1777
-                             'lambda_l1': 1.0409e-08
-                             'lambda_l2': 0.3918                  |
-| XGBoost       | 0.0207  | 'booster': 'dart'
+| CatBoost      | 0.0293   | 'learning_rate': 0.0834              |
+|               |          | 'depth': 10                          |       
+| LightGBM      | 0.0472   | 'num_leaves': 65                     |
+|               |          | 'learning_rate': 0.1777              |
+|               |          | 'lambda_l1': 1.0409e-08              |
+|               |          | 'lambda_l2': 0.3918                  |
+| XGBoost       | 0.0207   | 'booster': 'dart'                    |
                              'lambda': 0.0033
                              'alpha': 0.0146
                              'learning_rate': 0.1078
