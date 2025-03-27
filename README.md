@@ -52,10 +52,10 @@ cd salary-prediction
 |               |          | 'lambda_l1': 1.0409e-08              |
 |               |          | 'lambda_l2': 0.3918                  |
 | XGBoost       | 0.0207   | 'booster': 'dart'                    |
-                             'lambda': 0.0033
-                             'alpha': 0.0146
-                             'learning_rate': 0.1078
-                             'max_depth': 6                       |
+|               |          |  'lambda': 0.0033                    |
+|               |          |  'alpha': 0.0146                     |
+|               |          |  'learning_rate': 0.1078             |
+|               |          |  'max_depth': 6                      |
 
 
 ## 📊 Результаты
